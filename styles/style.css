@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, iframe,
+blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, input, select, textarea  
+ 
+{margin:0; padding:0;}
+
+body {
+    background-color: #efefef;
+    font-family: 'PF DinDisplay', 'Trebuchet MS', Arial;
+}
+header {
+    -webkit-box-shadow: 2px -4px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px -4px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px -4px 30px 0px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 50px;
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+header ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+header a {
+    transition: all .15s ease-in-out;
+    color: gray;
+    outline: none;
+}
+header a:hover {
+    text-decoration: none;
+}
+
+/*---Droplist---*/
+#drop-list ul {
+    background-color: #f5f5f5;
+    visibility: hidden;
+    position: absolute;
+    padding: 10px 0;
+    margin: 0;
+    opacity: 0;
+}
+#drop-list:hover > ul {
+    visibility: visible;
+    position: absolute;
+    opacity: 1;
+    transition: all .15s;
+}
+#drop-list ul a:hover {
+    background-color: white;
+}
+#active a, #drop-list:hover > a {
+    background-color: #f5f5f5;
+}
+/*---End of Droplist---*/
+
+/*---Left Menu--*/
+.top-left-menu a {
+    display: block;
+    padding: 15px;
+}
+.top-left-menu li {
+    position: relative;
+    float: left;
+}
+.top-left-menu ul a {
+    min-width: 180px;
+    display: block;
+    padding: 9px 15px;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 20px;
+}
+.top-left-menu ul a:hover {
+    background-color: white;
+    transition: all .15s;
+}
+.logo a {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px;
+}
+.logo a:hover {
+    color: gray;
+}
+.gallery a:hover {
+    color: #30c2f2;
+}
+.new a:hover {
+    color: #83bf0a;
+}
+.idea a:hover {
+    color: #00c0b5;
+}
+.other a:hover {
+    color: #ff860d;
+}
+/*---End of Left Menu--*/
+
+/*---Right Menu---*/
+.top-right-menu {
+    float: right;
+}
+.top-right-menu a {
+    display: block;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 16px;
+}
+.top-right-menu li {
+    position: relative;
+    float: left;
+}
+.top-right-menu li:hover {
+    background-color: #f5f5f5;
+    transition: all .15s;
+}
+.top-right-menu li ul {
+    right: 0;
+    top: 50px;
+}
+.top-right-menu ul a {
+    min-width: 170px;
+    padding: 8px 0% 8px 50px;
+}
+.top-right-menu ul a:hover {
+    color: #ff860d;
+}
+
+.search {
+    background: url(../img/search.png) 100% 100% no-repeat;
+}
+.search:hover {
+    background: url(../img/searchh.png) 100% 100% no-repeat;
+}
+.lang {
+    background: url(../img/lang.png) 100% 100% no-repeat;
+}
+.lang:hover {
+    background: url(../img/langh.png) 100% 100% no-repeat;
+}
+.signin {
+    background: url(../img/acc.png) 100% 100% no-repeat;
+}
+.signin:hover {
+    background: url(../img/acch.png) 100% 100% no-repeat;
+}
+.active-icons {
+    height: 50px;
+    width: 62px;
+    background-position: center;
+}
+.active-icons:hover {
+    background-position: center;
+}
+.fl img {
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+/*---End of Right Menu---*/
+
+/*---Footer---*/
+/*---End of Footer---*/
