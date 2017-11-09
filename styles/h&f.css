@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, iframe,
+html,  body, div, span, applet, object, h1, h2, h3, h4, h5, h6, iframe,
 blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
 dd, dl, dt, fieldset, form, label, legend, table, caption, tbody, tfoot,
 thead, tr, th, td, input, select, textarea
@@ -35,6 +35,9 @@ footer {
     -webkit-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.75);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
 }
 ul {
     list-style-type: none;
@@ -43,10 +46,11 @@ ul {
 }
 a {
     transition: all .15s ease-in-out;
-    color: gray;
     outline: none;
+    color: gray;
 }
 a:hover {
+    color: gray;
     text-decoration: none;
 }
 
@@ -74,15 +78,15 @@ a:hover {
 /*---End of Droplist---*/
 
 /*---Left Menu--*/
-.top-left-menu a {
+.left-menu a {
     display: block;
     padding: 15px;
 }
-.top-left-menu li {
+.left-menu li {
     position: relative;
     float: left;
 }
-.top-left-menu ul a {
+.left-menu ul a {
     min-width: 180px;
     display: block;
     padding: 9px 15px;
@@ -90,7 +94,7 @@ a:hover {
     line-height: 25px;
     font-size: 20px;
 }
-.top-left-menu ul a:hover {
+.left-menu ul a:hover {
     background-color: white;
     transition: all .15s;
 }
@@ -150,22 +154,22 @@ a:hover {
 }
 
 .search {
-    background: url(../img/search.png) 100% 100% no-repeat;
+    background: url(../img/sla/search.png) 100% 100% no-repeat;
 }
 .search:hover {
-    background: url(../img/searchh.png) 100% 100% no-repeat;
+    background: url(../img/sla/searchh.png) 100% 100% no-repeat;
 }
 .lang {
-    background: url(../img/lang.png) 100% 100% no-repeat;
+    background: url(../img/sla/lang.png) 100% 100% no-repeat;
 }
 .lang:hover {
-    background: url(../img/langh.png) 100% 100% no-repeat;
+    background: url(../img/sla/langh.png) 100% 100% no-repeat;
 }
 .signin {
-    background: url(../img/acc.png) 100% 100% no-repeat;
+    background: url(../img/sla/acc.png) 100% 100% no-repeat;
 }
 .signin:hover {
-    background: url(../img/acch.png) 100% 100% no-repeat;
+    background: url(../img/sla/acch.png) 100% 100% no-repeat;
 }
 .top-active-icons {
     height: 50px;
@@ -183,6 +187,15 @@ a:hover {
 /*---End of Right Menu---*/
 
 /*---Footer---*/
+.footer a{
+    color: #9e9e9e;
+}
+.footer a:hover {
+    color: gray;
+}
+.logo-f a {
+    color: gray;
+}
 .social-nets {
     float: right;
 }
@@ -192,18 +205,40 @@ a:hover {
 .yt {
     background: url(../img/sn/yt.png) 100% 100% no-repeat;
 }
+.yt:hover {
+    background: url(../img/sn/yth.png) 100% 100% no-repeat;
+}
 .tw {
     background: url(../img/sn/tw.png) 100% 100% no-repeat;
 }
+.tw:hover {
+    background: url(../img/sn/twh.png) 100% 100% no-repeat;
+}
+/*.ln {
+    background: url(../img/sn/ln.png) 100% 100% no-repeat;
+}
+.ln:hover {
+    background: url(../img/sn/lnh.png) 100% 100% no-repeat;
+}*/
 .in {
     background: url(../img/sn/in.png) 100% 100% no-repeat;
+}
+.in:hover {
+    background: url(../img/sn/inh.png) 100% 100% no-repeat;
 }
 .fb {
     background: url(../img/sn/fb.png) 100% 100% no-repeat;
 }
+.fb:hover {
+    background: url(../img/sn/fbh.png) 100% 100% no-repeat;
+}
 .bt-active-icons {
     height: 50px;
     width: 45px;
+    background-position: center;
+    transition: all .25s;
+}
+.bt-active-icons:hover {
     background-position: center;
 }
 /*---End of Footer---*/
